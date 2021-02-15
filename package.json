@@ -1,6 +1,6 @@
 {
   "name": "files",
-  "version": "2.1.1",
+  "version": "0.1.1",
   "description": "Filesystem API easily usable with Promises and arrays",
   "author": "Francisco Presencia <public@francisco.io> (https://francisco.io/)",
   "homepage": "https://github.com/franciscop/files#readme",
@@ -23,7 +23,6 @@
   ],
   "files": [],
   "main": "files.js",
-  "type": "module",
   "dependencies": {
     "atocha": "^1.0.1",
     "swear": "^1.1.0"

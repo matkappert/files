@@ -1,10 +1,10 @@
 // The best filesystem for promises and array manipulation
-import fs from "fs";
-import path from "path";
-import { homedir, tmpdir } from "os";
-import { promisify } from "util";
-import swear from "swear";
-import run from "atocha";
+const fs = require('fs');
+const path = require('path');
+const { homedir, tmpdir } = require('os');
+const { promisify } = require('util');
+const swear = require('swear');
+const run = require('atocha');
 
 // Find whether it's Linux or Mac, where we can use `find`
 const mac = () => process.platform === "darwin";
